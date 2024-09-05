@@ -1,0 +1,13 @@
+package stringClass;
+
+public class LearningStringClass {
+
+	public static void main(String[] args) {
+		//String Class Constructors
+		String firstString=new String();
+		System.out.println(firstString);
+		System.out.println("Length of String "+firstString.length());
+
+	}
+
+}

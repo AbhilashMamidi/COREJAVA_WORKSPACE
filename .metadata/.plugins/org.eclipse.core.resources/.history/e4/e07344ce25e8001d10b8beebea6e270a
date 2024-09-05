@@ -1,0 +1,29 @@
+package stringClass;
+
+public class LearningStringClass {
+
+	public static void main(String[] args) {
+		String s=new String();
+		System.out.println(s);//empty no result
+		System.out.println(s.length());
+		
+		String s1=new String("Java");
+		System.out.println(s1);
+		System.out.println(s1.length());
+		
+		char[] chArray= {'J','a','v','a'};
+		String s2=new String(chArray);
+		System.out.println(s2);
+		
+				
+		//String Class Constructors
+		String firstString=new String();
+		System.out.println(firstString);
+		System.out.println("Length of FirstString :"+firstString.length());
+		//If we use above constructor, an String Object will be created
+		//With an empty String literals
+		
+
+	}
+
+}
